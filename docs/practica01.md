@@ -1,10 +1,20 @@
-Git instalado y configurado en local: Se ha verificado la instalación de Git y se han configurado correctamente el nombre de usuario y el correo electrónico.
+# Documentación de la Práctica 01
 
- GitHub CLI instalado y configurado: Se ha comprobado el estado de la autenticación (gh auth status), confirmando que la sesión está iniciada de forma activa con la cuenta de GitHub.
+A continuación se detallan los pasos realizados para la configuración inicial del entorno de desarrollo:
 
-Repositorio "misitio" clonado en local: Se ha descargado el proyecto al equipo local mediante el comando de clonación y se ha verificado el origen del repositorio para asegurar que está bien enlazado.
-  
-Herd con PHP 8.4 y sitio servido en HTTPS: A través del panel de comandos de Herd, se ha confirmado que el proyecto "misitio" se está ejecutando con la versión 8.4 de PHP. Además, cuenta con el certificado de seguridad (SSL) activado, por lo que la página carga de forma segura en la dirección local
+## 1. Configuración de Git y GitHub CLI
+En este primer paso, hemos configurado nuestras credenciales de usuario en Git y nos hemos autenticado mediante GitHub CLI para poder gestionar nuestros proyectos desde la terminal.
 
+![Configuración de Git y GitHub CLI](imgs/configuracion%20git%20y%20github%20cli.png)
+
+## 2. Comprobación de Herd
+Después de instalar el entorno, verificamos que Laravel Herd está funcionando de manera correcta y levantando los servicios necesarios para nuestro servidor local.
+
+![Herd correcto](imgs/herd%20correcto.png)
+
+## 3. Repositorio de "misitio"
+Por último, hemos creado y enlazado nuestro proyecto local con GitHub, confirmando que el repositorio de "misitio" se ha subido y configurado correctamente.
+
+![Repositorio misitio correcto](imgs/repositorio%20misitio%20correcto.png)
 
 
